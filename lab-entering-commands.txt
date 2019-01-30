@@ -16,7 +16,13 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
-----------
+AMALogger20190109.log	Library			QLData
+Adlm			MPLABXProjects		Riba-MTEC1003
+Adobe			Movies			Things
+Applications		Music			ipe.properties
+Desktop			New Unity Project	isus
+Documents		Pictures		pymel.log
+Downloads		Public			xgen
 
 
 
@@ -26,19 +32,19 @@ Copy and paste the output of ls below.
 $ ls D<TAB>
 
 What happens?  Describe it below.
-----------
+Nothing happens
 
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
-----------
+Desktop/   Documents/ Downloads/
 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
-----------
+ls: D: No such file or directory
 
 
 
@@ -48,7 +54,10 @@ What happens?  Describe it below.
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
-----------
+total 8
+drwxr-xr-x   8 student  staff   272 Jan 17  2018 Ableton
+drwxrwxrwx  14 student  staff   476 Jan 17  2018 Adobe
+
 
 
 
@@ -68,7 +77,8 @@ Copy and paste the first *two lines* of output below.
 <UP><ENTER>
 
 What command was repeated?
-----------
+The last command that i put. 
+ls -l documents
 
 
 
@@ -78,7 +88,7 @@ What command was repeated?
 <UP><UP><UP><DOWN><ENTER>
 
 What command was repeated?
-----------
+$ ls D
 
 
 
@@ -98,13 +108,13 @@ What is the result of pressing tab?
 $ ls doesnotexist
 
 Copy and paste the output below.
-----------
+ls: doesnotexist: No such file or directory
 
 
 
 ==========
 9.  What key do I press to go to the previous command?
-----------
+<up> and press <enter>
 
 
 
@@ -122,13 +132,13 @@ Copy and paste the output below.
 
 ==========
 12.  What was the main command that we used throughout this exercise?
-----------
+ls
 
 
 
 ==========
 13.  Name one argument that we passed to the command.
-----------
+ls desktop
 
 
 
@@ -138,7 +148,7 @@ Copy and paste the output below.
 $ foo<ENTER>
 
 Copy and paste the output below.
-----------
+-bash: foo: command not found
 
 
 
@@ -148,7 +158,7 @@ Copy and paste the output below.
 <UP><ENTER>
 
 Copy and paste the output below.
-----------
+-bash: foo: command not found
 
 
 
