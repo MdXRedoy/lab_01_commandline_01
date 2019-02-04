@@ -54,9 +54,8 @@ ls: D: No such file or directory
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
-total 8
-drwxr-xr-x   8 student  staff   272 Jan 17  2018 Ableton
-drwxrwxrwx  14 student  staff   476 Jan 17  2018 Adobe
+i found only one.ls
+.		..		.localized	iChats
 
 
 
@@ -104,11 +103,7 @@ $ ls D
 $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
-Get-ChildItem : Cannot find path 'C:\vol' because it does not exist.
-At line:1 char:3
-+ ls <<<<  /vol
-    + CategoryInfo          : ObjectNotFound: (C:\vol:String) [Get-ChildItem], ItemNotFoundException
-    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Macintosh HD
 
 
 ==========
